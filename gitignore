@@ -1,0 +1,36 @@
+# Output files (contain potentially sensitive data)
+CloudflareSecurityAudit_*.csv
+CloudflareRulesAudit_*.csv
+CloudflareWorkersAudit_*.csv
+CloudflareIPAccessRules_*.csv
+CloudflareSecurityTxt_*.csv
+CloudflareSecurityAudit_*.html
+
+# Don't commit tokens or credentials
+*.token
+*.secret
+.env
+.env.local
+
+# PowerShell
+*.ps1xml
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
