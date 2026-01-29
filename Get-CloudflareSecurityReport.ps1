@@ -36,7 +36,7 @@
     # Will prompt for API token if not configured
 
 .NOTES
-    Author: Claude (for The Collegiate Trust)
+    Author: Claude
     Version: 4.0
     
     Required API Token Permissions:
@@ -1119,7 +1119,7 @@ $htmlContent = @"
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cloudflare Security Audit - The Collegiate Trust</title>
+    <title>Cloudflare Security Audit</title>
     <style>
         :root {
             --green: #22c55e;
@@ -1354,7 +1354,7 @@ $htmlContent = @"
     <div class="container">
         <header>
             <h1>☁️ Cloudflare Security Audit Report</h1>
-            <p>Generated: $(Get-Date -Format "dddd, dd MMMM yyyy 'at' HH:mm:ss") | Zones Audited: $($results.Count) | The Collegiate Trust</p>
+            <p>Generated: $(Get-Date -Format "dddd, dd MMMM yyyy 'at' HH:mm:ss") | Zones Audited: $($results.Count)</p>
         </header>
         
         <div class="summary">
@@ -1972,7 +1972,7 @@ $htmlContent += @"
         </div>
         
         <footer>
-            <p>The Collegiate Trust - IT Department | Cloudflare Security Audit v4.0</p>
+            <p>Cloudflare Security Audit v4.0</p>
             <p style="margin-top:8px;font-size:11px;">Hover over (?) for explanations • Click ℹ️ for documentation</p>
         </footer>
     </div>
