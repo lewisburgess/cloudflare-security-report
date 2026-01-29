@@ -289,31 +289,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 ## Author
 
-Created for The Collegiate Trust IT Department.
+Lewis Burgess
 
 ## Changelog
-
-### v4.0
-- Added rule deduplication
-- Added filtering for Rules and IP Access tabs
-- Fixed text truncation — full expressions now visible
-- Added Security.txt content capture
-- Added interactive API token prompt
-- Moved recommendations to dedicated tab
-- Added rule names/descriptions
-- Improved ruleset fetching (by phase)
-
-### v3.0
-- Added Origin Rules and Transform Rules
-- Added IP Access Rules dedicated tab
-- Added tooltips and documentation links
-- Added zone hyperlinks to Cloudflare dashboard
-- Added Workers tab
-
-### v2.0
-- Added comprehensive settings coverage
-- Added RAG status indicators
-- Added HTML report with tabs
-
-### v1.0
-- Initial release with basic settings audit
