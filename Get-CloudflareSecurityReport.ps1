@@ -36,8 +36,8 @@
     # Will prompt for API token if not configured
 
 .NOTES
-    Author: Claude
-    Version: 4.0
+    Author: Lewis Burgess
+    Version: 1.0
     
     Required API Token Permissions:
     - Zone: Read
